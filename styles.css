@@ -264,6 +264,9 @@ footer {
     justify-content: center;
     text-align: center;
     
+  } 
+  .section-one h1 {
+    font-size: 3rem;
   }
   .news{
     gap: 2em;
