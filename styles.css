@@ -93,16 +93,16 @@ html {
   font-size: 1.25rem;
   margin-bottom: 7em;
 }
-.newsletter{
+.newsletter {
   background: #35424a;
   color: #fff;
   padding: 2em;
 }
-.news{
+.news {
   display: flex;
   justify-content: space-between;
 }
-.news h3{
+.news h3 {
   font-size: 1.4rem;
 }
 .form input {
@@ -251,7 +251,6 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 1em;
-   
   }
   .section-one,
   .news,
@@ -263,12 +262,11 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    
-  } 
+  }
   .section-one h1 {
     font-size: 3rem;
   }
-  .news{
+  .news {
     gap: 2em;
   }
   .form {
@@ -284,7 +282,6 @@ footer {
   /* ABOUT PAGE */
   .about {
     gap: 0;
-   
   }
   .about-text,
   .what {
@@ -303,15 +300,15 @@ footer {
     margin-top: 1em;
   }
   .what {
+    min-height: 12em;
     padding-bottom: 1em;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
   }
 
   /* SERVICES PAGE */
   .service-text,
   .quote {
     width: 100%;
-    
   }
   .service {
     gap: 0;
@@ -320,4 +317,24 @@ footer {
     width: 100%;
     padding: 0.5em;
   }
+}
+
+@media screen and (min-width: 769px){
+  .form button{
+    width: 40%;
+  }
+  .form{
+    display: flex;
+    gap: .1em;
+  }
+  .quote{
+    width: 35%;
+
+  }
+}
+
+@media screen and (max-width: 320px){
+.logo li{
+  font-size: .97em;
+}
 }
